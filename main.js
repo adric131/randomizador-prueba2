@@ -9,7 +9,7 @@ const textoRandomizar = document.getElementById("randomizar-texto")
 
 divBoton.addEventListener("click", (e) => {
 
-const rutaDeImagenes = ["/fotos/Champs/Gragasicono.webp", "/fotos/Champs/samira.png","/fotos/Champs/kassadin.png","/fotos/Champs/Gnar.webp","/fotos/Champs/lulu.webp","/fotos/Champs/zoe.png","/fotos/Champs/Rakan.webp","/fotos/Champs/doctormundo.webp","/fotos/Champs/Morgana.webp","/fotos/Champs/darius.png","/fotos/Champs/nami.webp","/fotos/Champs/Morde.webp","/fotos/Champs/ww.webp",
+const rutaDeImagenes = ["/fotos/Champs/Gragasicono.webp", "/fotos/Champs/samira.webp","/fotos/Champs/kassadin.webp","/fotos/Champs/Gnar.webp","/fotos/Champs/lulu.webp","/fotos/Champs/zoe.webp","/fotos/Champs/Rakan.webp","/fotos/Champs/doctormundo.webp","/fotos/Champs/Morgana.webp","/fotos/Champs/darius.webp","/fotos/Champs/nami.webp","/fotos/Champs/Morde.webp","/fotos/Champs/ww.webp",
 "/fotos/Champs/Cait.webp","/fotos/Champs/lux.webp","/fotos/Champs/Ornn.webp","/fotos/Champs/singed.webp","/fotos/Champs/jinx.webp","/fotos/Champs/sett.webp","/fotos/Champs/Garen.webp","/fotos/Champs/vi.webp","/fotos/Champs/Lucian.webp","/fotos/Champs/Senna.webp","/fotos/Champs/Syndra.webp","/fotos/Champs/Xin.webp","/fotos/Champs/varus.webp","/fotos/Champs/Heimer.webp","/fotos/Champs/Yuumi.webp",
 "/fotos/Champs/Blit.webp","/fotos/Champs/jhin.webp","/fotos/Champs/xayah.webp","/fotos/Champs/K6.webp","/fotos/Champs/Rengar.webp","/fotos/Champs/Elise.webp","/fotos/Champs/Nida.webp","/fotos/Champs/Ksante.webp","/fotos/Champs/fiora.webp","/fotos/Champs/Nasus.webp","/fotos/Champs/lee.webp","/fotos/Champs/yorick.webp"];
  
@@ -26,7 +26,7 @@ divBoton.style.cursor = "pointer";
 }
 )
 divBoton.addEventListener("click", () =>{
-const rutaDeRoles = ["/fotos/Roles/Support_icon.webp", "/fotos/Roles/jungla.png","/fotos/Roles/bot_icon.png","/fotos/Roles/Midlane_icon.webp","/fotos/Roles/Top_icon.webp"];
+const rutaDeRoles = ["/fotos/Roles/Support_icon.webp", "/fotos/Roles/jungla.webp","/fotos/Roles/bot_icon.webp","/fotos/Roles/Midlane_icon.webp","/fotos/Roles/Top_icon.webp"];
 
 const randomizarRoles = Math.floor((Math.random())* 5);
 
@@ -59,7 +59,7 @@ divBoton.addEventListener("click", () => {
      "/fotos/Objetos/cosechador.webp", "/fotos/Objetos/solari.webp", "/fotos/Objetos/guantelete.webp", "/fotos/Objetos/mandatoimperial.webp","/fotos/Objetos/corona.webp","/fotos/Objetos/varadelasedades.webp" ];
 
 
-    const rutasDebotas = [ "/Botas/lucides.webp", "/Botas/velocidad.png", "/botas/armadura.png", "/botas/hechiceros.webp", "/botas/botassoporte.webp","/botas/mov.webp","/botas/Mer.webp"];
+    const rutasDebotas = [ "/Botas/lucides.webp", "/Botas/velocidad.webp", "/botas/armadura.webp", "/botas/hechiceros.webp", "/botas/botassoporte.webp","/botas/mov.webp","/botas/Mer.webp"];
 
 const randomizarItems = Math.floor((Math.random()) * 24);
 const randomizarItems2 = Math.floor((Math.random()) * 17);
@@ -84,7 +84,7 @@ const randomizarItems6 = Math.floor((Math.random()) * 7);
 
 divBoton.addEventListener("click", () => {
 
-    const rutaDeSummoners = ["/Summoners/Tp.webp", "/Summoners/ex.webp", "/Summoners/barrera.png","/Summoners/ignite.webp","/Summoners/purificar.webp"];
+    const rutaDeSummoners = ["/Summoners/Tp.webp", "/Summoners/ex.webp", "/Summoners/barrera.webp","/Summoners/ignite.webp","/Summoners/purificar.webp"];
    const rutaDeSummonersInamovible = ["/Summoners/Flash.webp", "/Summoners/fantsamal.webp", "/Summoners/curar.webp", "/Summoners/Smite.webp"];
     const randomizarSummoners1 = Math.floor((Math.random())* 4);
     const randomizarSummoners2 = Math.floor ((Math.random())* 5)
