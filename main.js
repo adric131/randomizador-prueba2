@@ -62,11 +62,11 @@ divBoton.addEventListener("click", () => {
     const rutasDebotas = [ "/Botas/lucides.webp", "/Botas/velocidad.webp", "/botas/armadura.webp", "/botas/hechiceros.webp", "/botas/botassoporte.webp","/botas/mov.webp","/botas/Mer.webp"];
 
 const randomizarItems = Math.floor((Math.random()) * 24);
-const randomizarItems2 = Math.floor((Math.random()) * 17);
-const randomizarItems3 = Math.floor((Math.random()) * 16);
-const randomizarItems4 = Math.floor((Math.random()) * 17);
-const randomizarItems5 = Math.floor((Math.random()) * 16);
-const randomizarItems6 = Math.floor((Math.random()) * 7);
+const randomizarItems2 = Math.floor((Math.random()) * rutaDeItems.length);
+const randomizarItems3 = Math.floor((Math.random()) * rutaDeItems2.length);
+const randomizarItems4 = Math.floor((Math.random()) * rutaDeItems3.length);
+const randomizarItems5 = Math.floor((Math.random()) * rutaDeItems4.length);
+const randomizarItems6 = Math.floor((Math.random()) * rutasDebotas.length);
     contenedorItems.innerHTML = 
     `<div class= "itemsContenedor"><img class = "itemsimg" src = "${rutaDeItemsMiticos[randomizarItems]}">
       
