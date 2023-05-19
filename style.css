@@ -1,0 +1,170 @@
+body{
+  font-family: system-ui;
+  background-size: cover;
+   background-image: url(fondoj.webp);
+   background-attachment: fixed;
+
+}
+
+main{
+background-color: rgba(41, 40, 40, 0.644);
+display: grid;
+grid-template-rows: 8rem 10rem 2rem;
+width: 70%;
+height: 97vh;
+margin-left: 15%;
+
+
+}
+
+h1{
+   display: flex;
+justify-content: center;
+
+color: rgb(253, 97, 41);
+
+
+}
+.boton{
+  display: flex;
+  justify-content: space-around;
+     color: white;
+ border-top: 1.5px solid white;
+ border-bottom: 1.5px solid white;
+ border-left: 1.5px solid white;
+ border-right: 1.5px solid white;
+ border-radius: 1.3rem;
+background-color: orange;
+
+
+margin-left: 25%;
+margin-right: 25%;
+height: 4.5rem;
+
+}
+
+
+h2{
+margin-top: 0.65rem;
+font-size: 2rem;
+
+}
+
+.imagenesChamps {
+border: 0.5px solid goldenrod;
+   height: 7rem;
+   width: 7rem;
+   margin-left: 1.8rem;
+   border-radius: 0.5rem;
+   
+  
+}
+
+.imagenesroles{
+background:black;
+border-radius: 0.5rem;
+
+   
+}
+.rolesimg{
+display: flex;
+height: 3rem;
+width: 3rem;
+margin-left: 10.5rem;
+margin-top: -8rem;
+
+}
+
+
+.itemsimg{
+
+margin-top: 0.5rem;
+height: 4rem;
+
+width: 4rem;
+border-radius: 0.3rem;
+
+}
+
+.itemsimgsecundaria{
+height: 4rem;
+width: 4rem;
+margin-top: 0.5rem;
+border-radius: 0.3rem;
+
+}
+
+.itemsimgtercero{
+height: 4rem;
+width: 4rem;
+margin-top: 0.5rem;
+border-radius: 0.3rem;
+
+}
+
+.itemsimgcuarto{
+   height: 4rem;
+width: 4rem;
+border-radius: 0.3rem;
+}
+
+.itemsimgquinto {
+height: 4rem;
+width: 4rem;
+border-radius: 0.3rem;
+}
+
+.itemsimgsexto {
+    height: 4rem;
+width: 4rem;    
+border-radius: 0.3rem;
+}
+
+.itemsContenedor{
+display: grid;
+gap: 0rem;
+grid-template-columns: 4.7rem 4.7rem 4.7rem;
+grid-template-rows: 50% 1fr;
+align-items: start;
+justify-items: center;
+justify-content: center;
+width: 14.7rem;
+height: 9.5rem;
+margin-left: 40%;
+margin-top: -10rem;
+background-color: rgba(0, 0, 0, 0.708);
+border-radius: 0.5rem;
+border: 0.2rem solid  goldenrod;
+
+}
+
+.Summoners {
+   display: flex;
+   width: 7rem;
+   height: 3rem;
+   border-radius: 0.5rem;
+   margin-top: -8rem;
+   margin-left: 2rem;
+   background: black;
+   border: 0.1rem solid goldenrod;
+   
+   
+}
+
+.imgsumm1{
+height: 2.5rem;
+display: flex;
+margin-top: 0.25rem;
+margin-left: 0.5rem;
+border-radius: 0.5rem;
+
+}
+
+
+.imgsumm2{
+display: flex; 
+height: 2.5rem;
+margin-left: 0.7rem;
+margin-top: 0.23rem;
+border-radius: 0.5rem;   
+}
