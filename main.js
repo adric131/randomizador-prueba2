@@ -9,9 +9,9 @@ const textoRandomizar = document.getElementById("randomizar-texto")
 
 divBoton.addEventListener("click", (e) => {
 
-    const rutaDeImagenes = ["/fotos/Champs/Gragasicono.webp", "/fotos/Champs/samira.webp", "/fotos/Champs/kassadin.webp", "/fotos/Champs/Gnar.webp", "/fotos/Champs/lulu.webp", "/fotos/Champs/zoe.webp", "/fotos/Champs/Rakan.webp", "/fotos/Champs/doctormundo.webp", "/fotos/Champs/Morgana.webp", "/fotos/Champs/darius.webp", "/fotos/Champs/nami.webp", "/fotos/Champs/Morde.webp", "/fotos/Champs/ww.webp",
-        "/fotos/Champs/Cait.webp", "/fotos/Champs/lux.webp", "/fotos/Champs/Ornn.webp", "/fotos/Champs/singed.webp", "/fotos/Champs/jinx.webp", "/fotos/Champs/sett.webp", "/fotos/Champs/Garen.webp", "/fotos/Champs/vi.webp", "/fotos/Champs/Lucian.webp", "/fotos/Champs/Senna.webp", "/fotos/Champs/Syndra.webp", "/fotos/Champs/Xin.webp", "/fotos/Champs/varus.webp", "/fotos/Champs/Heimer.webp", "/fotos/Champs/Yuumi.webp",
-        "/fotos/Champs/Blit.webp", "/fotos/Champs/jhin.webp", "/fotos/Champs/xayah.webp", "/fotos/Champs/K6.webp", "/fotos/Champs/Rengar.webp", "/fotos/Champs/Elise.webp", "/fotos/Champs/Nida.webp", "/fotos/Champs/Ksante.webp", "/fotos/Champs/fiora.webp", "/fotos/Champs/Nasus.webp", "/fotos/Champs/lee.webp", "/fotos/Champs/yorick.webp"];
+    const rutaDeImagenes = ["/fotos/champs/Gragasicono.webp", "/fotos/champs/samira.webp", "/fotos/champs/kassadin.webp", "/fotos/champs/Gnar.webp", "/fotos/champs/lulu.webp", "/fotos/champs/zoe.webp", "/fotos/champs/Rakan.webp", "/fotos/champs/doctormundo.webp", "/fotos/champs/Morgana.webp", "/fotos/champs/darius.webp", "/fotos/champs/nami.webp", "/fotos/champs/Morde.webp", "/fotos/champs/ww.webp",
+        "/fotos/champs/Cait.webp", "/fotos/champs/lux.webp", "/fotos/champs/Ornn.webp", "/fotos/champs/singed.webp", "/fotos/champs/jinx.webp", "/fotos/champs/sett.webp", "/fotos/champs/Garen.webp", "/fotos/champs/vi.webp", "/fotos/champs/Lucian.webp", "/fotos/champs/Senna.webp", "/fotos/champs/Syndra.webp", "/fotos/champs/Xin.webp", "/fotos/champs/varus.webp", "/fotos/champs/Heimer.webp", "/fotos/Champs/Yuumi.webp",
+        "/fotos/champs/Blit.webp", "/fotos/champs/jhin.webp", "/fotos/champs/xayah.webp", "/fotos/champs/K6.webp", "/fotos/champs/Rengar.webp", "/fotos/champs/Elise.webp", "/fotos/champs/Nida.webp", "/fotos/champs/Ksante.webp", "/fotos/champs/fiora.webp", "/fotos/champs/Nasus.webp", "/fotos/champs/lee.webp", "/fotos/champs/yorick.webp"];
 
 
     const Randomizar = Math.floor((Math.random() * 40));
@@ -59,7 +59,7 @@ divBoton.addEventListener("click", () => {
         "/fotos/Objetos/cosechador.webp", "/fotos/Objetos/solari.webp", "/fotos/Objetos/guantelete.webp", "/fotos/Objetos/mandatoimperial.webp", "/fotos/Objetos/corona.webp", "/fotos/Objetos/varadelasedades.webp"];
 
 
-    const rutasDebotas = ["/Botas/lucides.webp", "/Botas/velocidad.webp", "/botas/armadura.webp", "/botas/hechiceros.webp", "/botas/botassoporte.webp", "/botas/mov.webp", "/botas/Mer.webp"];
+    const rutasDebotas = ["/botas/lucides.webp", "/botas/velocidad.webp", "/botas/armadura.webp", "/botas/hechiceros.webp", "/botas/botassoporte.webp", "/botas/mov.webp", "/botas/Mer.webp"];
 
     const randomizarItems = Math.floor((Math.random()) * rutaDeItemsMiticos.length);
     const randomizarItems2 = Math.floor((Math.random()) * rutaDeItems.length);
