@@ -9,9 +9,9 @@ const textoRandomizar = document.getElementById("randomizar-texto")
 
 divBoton.addEventListener("click", (e) => {
 
-    const rutaDeImagenes = ["../Gragasicono.webp", "../samira.webp", "../kassadin.webp", "../Gnar.webp", "../lulu.webp", "../zoe.webp", "../Rakan.webp", "../doctormundo.webp", "../Morgana.webp", "../darius.webp", "../nami.webp", "../Morde.webp", "../ww.webp",
-        "../Cait.webp", "../lux.webp", "../Ornn.webp", "../singed.webp", "../jinx.webp", "../sett.webp", "../Garen.webp", "../vi.webp", "../Lucian.webp", "../Senna.webp", "../Syndra.webp", "../Xin.webp", "../varus.webp", "../Heimer.webp", "/fotos/Champs/Yuumi.webp",
-        "../Blit.webp", "../jhin.webp", "../xayah.webp", "../K6.webp", "../Rengar.webp", "/fotos/champs/Elise.webp", "/fotos/champs/Nida.webp", "/fotos/champs/Ksante.webp", "/fotos/champs/fiora.webp", "/fotos/champs/Nasus.webp", "/fotos/champs/lee.webp", "/fotos/champs/yorick.webp"];
+    const rutaDeImagenes = ["../Champs/Gragasicono.webp", "../Champs/samira.webp", "../Champs/kassadin.webp", "../Champs/Gnar.webp", "../Champs/lulu.webp", "../Champs/zoe.webp", "../Champs/Rakan.webp", "../Champs/doctormundo.webp", "../Champs/Morgana.webp", "../Champs/darius.webp", "../Champs/nami.webp", "../Champs/Morde.webp", "../Champs/ww.webp",
+        "../Champs/Cait.webp", "../Champs/lux.webp", "../Champs/Ornn.webp", "../Champs/singed.webp", "../Champs/jinx.webp", "../Champs/sett.webp", "../Champs/Garen.webp", "../Champs/vi.webp", "../Champs/Lucian.webp", "../Champs/Senna.webp", "../Champs/Syndra.webp", "../Champs/Xin.webp", "../Champs/varus.webp", "../Champs/Heimer.webp", "/fotos/Champs/Yuumi.webp",
+        "../Champs/Blit.webp", "../Champs/jhin.webp", "../Champs/xayah.webp", "../Champs/K6.webp", "../Champs/Rengar.webp", "../Champs/Elise.webp", "../Champs/Nida.webp", "../Champs/Ksante.webp", "../Champs/fiora.webp", "../Champs/Nasus.webp", "../Champs/lee.webp", "../Champs/yorick.webp"];
 
 
     const Randomizar = Math.floor((Math.random() * 40));
