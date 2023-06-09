@@ -10,8 +10,7 @@ main{
 background-color: rgba(41, 40, 40, 0.644);
 display: grid;
 grid-template-rows: 8rem 10rem 2rem;
-justify-content: center;
-align-items: center;
+
 width: 70%;
 height: 97vh;
 margin-left: 15%;
