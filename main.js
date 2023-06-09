@@ -41,22 +41,22 @@ divBoton.addEventListener("click", () => {
         "/fotos/Objetos/sangunaria.webp", "/fotos/Objetos/corazondehielo.webp", "/fotos/Objetos/cotadeespinas.webp", "/fotos/Objetos/gargola.webp", "/fotos/Objetos/cadenasdeanatema.webp", "/fotos/Objetos/impulsocosmico.webp",
         "/fotos/Objetos/redencion.webp", "/fotos/Objetos/umbralsombrio.webp"];
 
-    const rutaDeItems2 = ["/fotos/Objetos/filodelinfinito.webp", "/fotos/Objetos/liche.webp", "/fotos/Objetos/dientedenashor.webp", "/fotos/Objetos/warmog.webp", "/fotos/Objetos/purificadorquim.webp",
+    const rutaDeItems2 = ["/fotos/Objetos/liche.webp", "/fotos/Objetos/dientedenashor.webp", "/fotos/Objetos/warmog.webp", "/fotos/Objetos/purificadorquim.webp",
         "/fotos/Objetos/enfoque.webp", "/fotos/Objetos/rey.webp", "/fotos/Objetos/cemitarra.webp", "/fotos/Objetos/mazodehielo.webp", "/fotos/Objetos/huracanderunan.webp", "/fotos/Objetos/lumbria.webp",
         "/fotos/Objetos/morello.webp", "/fotos/Objetos/fuerzadelanaturaleza.webp", "/fotos/Objetos/tasaroja.webp", "/fotos/Objetos/abrazodemoniaco.webp", "/fotos/Objetos/arcoaxio.webp"];
 
     const rutaDeItems3 = ["/fotos/Objetos/yommu.webp", "/fotos/Objetos/cañondefuegorapido.webp", "/fotos/Objetos/bailedelamuerte.webp", "/fotos/Objetos/baculodeserafin.webp", "/fotos/Objetos/serpiente.webp", "/fotos/Objetos/randuim.webp",
-        "/fotos/Objetos/recuerdos.webp", "/fotos/Objetos/ultimosuspiro.webp", "/fotos/Objetos/serylda.webp", "/fotos/Objetos/ginzo.webp", "/fotos/Objetos/navori.webp", "/fotos/Objetos/zeke.webp", "/fotos/Objetos/manamune.webp",
-        "/fotos/Objetos/capadeinvierno.webp", "/fotos/Objetos/saqueador.webp", "/fotos/Objetos/bastiondeaguas.webp", "/fotos/Objetos/quimotanque.webp"]
+        "/fotos/Objetos/recuerdos.webp", "/fotos/Objetos/ultimosuspiro.webp", "/fotos/Objetos/serylda.webp", "/fotos/Objetos/arcoescudo.webp", "/fotos/Objetos/zeke.webp", "/fotos/Objetos/manamune.webp",
+        "/fotos/Objetos/capadeinvierno.webp", "/fotos/Objetos/saqueador.webp", "/fotos/Objetos/bastiondeaguas.webp", "/fotos/Objetos/quimotanque.webp", "/fotos/Objetos/garra.webp"]
 
     const rutaDeItems4 = ["/fotos/Objetos/collect.webp", "/fotos/Objetos/rabadon.webp", "/fotos/Objetos/angelguardian.webp", "/fotos/Objetos/rylai.webp", "/fotos/Objetos/mascaraabisal.webp", "/fotos/Objetos/baculodelvacio.webp", "/fotos/Objetos/bailarinespectral.webp", "/fotos/Objetos/velodebanshe.webp",
         "/fotos/Objetos/capadelanoche.webp", "/fotos/Objetos/egida.webp", "/fotos/Objetos/zhonya.webp", "/fotos/Objetos/placadelhombre.webp",
-        "/fotos/Objetos/sojin.webp", "/fotos/Objetos/cierraespada.webp", "/fotos/Objetos/rompecascos.webp", "/fotos/Objetos/tormenta.webp"]
+        "/fotos/Objetos/sojin.webp", "/fotos/Objetos/cierraespada.webp", "/fotos/Objetos/rompecascos.webp", "/fotos/Objetos/tormenta.webp", "/fotos/Objetos/matakraken.webp"]
 
-    const rutaDeItemsMiticos = ["/fotos/Objetos/ecodeluden.webp", "/fotos/Objetos/shurelya.webp", "/fotos/Objetos/cercenadoroscuro.webp", "/fotos/Objetos/Trinidad.webp", "/fotos/Objetos/arcoescudo.webp", "/fotos/Objetos/matakraken.webp",
+    const rutaDeItemsMiticos = ["/fotos/Objetos/ecodeluden.webp", "/fotos/Objetos/shurelya.webp", "/fotos/Objetos/cercenadoroscuro.webp", "/fotos/Objetos/Trinidad.webp", "/fotos/Objetos/navori.webp.webp",
         "/fotos/Objetos/fuerzadelviento.webp", "/fotos/Objetos/bebedor.webp", "/fotos/Objetos/eclipse.webp", "/fotos/Objetos/liandry.webp",
-        "/fotos/Objetos/draktar.webp", "/fotos/Objetos/rompeavances.webp", "/fotos/Objetos/agrietador.webp", "/fotos/Objetos/hieloeterno.webp", "/fotos/Objetos/piedralunar.webp", "/fotos/Objetos/garra.webp", "/fotos/Objetos/provel.webp", "/fotos/Objetos/jaksho.webp",
-        "/fotos/Objetos/cosechador.webp", "/fotos/Objetos/solari.webp", "/fotos/Objetos/guantelete.webp", "/fotos/Objetos/mandatoimperial.webp", "/fotos/Objetos/corona.webp", "/fotos/Objetos/varadelasedades.webp"];
+        "/fotos/Objetos/draktar.webp", "/fotos/Objetos/rompeavances.webp", "/fotos/Objetos/agrietador.webp", "/fotos/Objetos/hieloeterno.webp", "/fotos/Objetos/piedralunar.webp", "/fotos/Objetos/provel.webp", "/fotos/Objetos/jaksho.webp",
+        "/fotos/Objetos/cosechador.webp", "/fotos/Objetos/solari.webp", "/fotos/Objetos/guantelete.webp", "/fotos/Objetos/mandatoimperial.webp", "/fotos/Objetos/corona.webp", "/fotos/Objetos/varadelasedades.webp", "/fotos/Objetos/filodelinfinito.webp", "/fotos/Objetos/ginzo.webp",];
 
 
     const rutasDebotas = ["/botas/lucides.webp", "/botas/velocidad.webp", "/botas/armadura.webp", "/botas/hechiceros.webp", "/botas/botassoporte.webp", "/botas/mov.webp", "/botas/Mer.webp"];
