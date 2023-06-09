@@ -97,16 +97,13 @@ divBoton.addEventListener("click", () => {
      
      `;
 
+     if(divBoton.onclick){
+        divBoton.innerText = "Intentar de nuevo"
+     }
+
 })
 
-divBoton.addEventListener("click", () => {
-    if (divBoton.addEventListener("click")){
-    divBoton.innerText = `Intentar de nuevo`;
-    divBoton.push;
 
-    }
-}
-)
 
 
 
