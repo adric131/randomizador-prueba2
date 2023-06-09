@@ -84,8 +84,8 @@ divBoton.addEventListener("click", () => {
 
 divBoton.addEventListener("click", () => {
 
-    const rutaDeSummoners = ["/Summoners/Tp.webp", "/Summoners/ex.webp", "/Summoners/barrera.webp", "/Summoners/ignite.webp", "/Summoners/purificar.webp"];
-    const rutaDeSummonersInamovible = ["/Summoners/Flash.webp", "/Summoners/fantsamal.webp", "/Summoners/curar.webp", "/Summoners/Smite.webp"];
+    const rutaDeSummoners = ["../Tp.webp", "../ex.webp", "../barrera.webp", "../ignite.webp", "../purificar.webp"];
+    const rutaDeSummonersInamovible = ["../Flash.webp", "../fantsamal.webp", "../curar.webp", "../Smite.webp"];
     const randomizarSummoners1 = Math.floor((Math.random()) * 4);
     const randomizarSummoners2 = Math.floor((Math.random()) * 5)
 
