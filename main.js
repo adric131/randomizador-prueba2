@@ -54,7 +54,7 @@ divBoton.addEventListener("click", () => {
         "/fotos/Objetos/capadelanoche.webp", "/fotos/Objetos/egida.webp", "/fotos/Objetos/zhonya.webp", "/fotos/Objetos/placadelhombre.webp",
         "/fotos/Objetos/sojin.webp", "/fotos/Objetos/cierraespada.webp", "/fotos/Objetos/rompecascos.webp", "/fotos/Objetos/tormenta.webp", "/fotos/Objetos/matakraken.webp"]
 
-    const rutaDeItemsMiticos = ["/fotos/Objetos/ecodeluden.webp", "/fotos/Objetos/shurelya.webp", "/fotos/Objetos/cercenadoroscuro.webp", "/fotos/Objetos/Trinidad.webp", "/fotos/Objetos/navori.webp.webp",
+    const rutaDeItemsMiticos = ["/fotos/Objetos/ecodeluden.webp", "/fotos/Objetos/shurelya.webp", "/fotos/Objetos/cercenadoroscuro.webp", "/fotos/Objetos/Trinidad.webp", "/fotos/Objetos/navori.webp",
         "/fotos/Objetos/fuerzadelviento.webp", "/fotos/Objetos/bebedor.webp", "/fotos/Objetos/eclipse.webp", "/fotos/Objetos/liandry.webp",
         "/fotos/Objetos/draktar.webp", "/fotos/Objetos/rompeavances.webp", "/fotos/Objetos/agrietador.webp", "/fotos/Objetos/hieloeterno.webp", "/fotos/Objetos/piedralunar.webp", "/fotos/Objetos/provel.webp", "/fotos/Objetos/jaksho.webp",
         "/fotos/Objetos/cosechador.webp", "/fotos/Objetos/solari.webp", "/fotos/Objetos/guantelete.webp", "/fotos/Objetos/mandatoimperial.webp", "/fotos/Objetos/corona.webp", "/fotos/Objetos/varadelasedades.webp", "/fotos/Objetos/filodelinfinito.webp", "/fotos/Objetos/ginzo.webp",];
@@ -97,9 +97,7 @@ divBoton.addEventListener("click", () => {
      
      `;
 
-     if(divBoton.onclick){
-        divBoton.innerText = "Intentar de nuevo"
-     }
+    
 
 })
 
