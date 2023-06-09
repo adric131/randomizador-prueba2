@@ -15,7 +15,7 @@ divBoton.addEventListener("click", (e) => {
         "/fotos/Champs/kaisa.webp","/fotos/Champs/akali.webp","/fotos/Champs/katarina.webp", "/fotos/Champs/milio.webp","/fotos/Champs/3sh.webp","/fotos/Champs/ezreal.webp", "/fotos/Champs/ashe.webp","/fotos/Champs/urgot.webp", "/fotos/Champs/ekko.webp","/fotos/Champs/bardo.webp","/fotos/Champs/kayn.webp","/fotos/Champs/nocturne.webp","/fotos/Champs/pantheon.webp" ]
 
 
-    const Randomizar = Math.floor((Math.random() * 40));
+    const Randomizar = Math.floor((Math.random() * rutaDeImagenes.length));
 
 
 
