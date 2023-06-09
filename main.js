@@ -11,7 +11,8 @@ divBoton.addEventListener("click", (e) => {
 
     const rutaDeImagenes = ["/fotos/Champs/Gragasicono.webp", "/fotos/Champs/samira.webp", "/fotosChamps/kassadin.webp", "/fotos/Champs/Gnar.webp", "/fotos/Champs/lulu.webp", "/fotos/Champs/zoe.webp", "/fotos/Champs/Rakan.webp", "/fotos/Champs/doctormundo.webp", "/fotos/Champs/Morgana.webp", "/fotos/Champs/darius.webp", "/fotos/Champs/nami.webp", "/fotos/Champs/Morde.webp", "/fotos/Champs/ww.webp",
         "/fotos/Champs/Cait.webp", "/fotos/Champs/lux.webp", "/fotos/Champs/Ornn.webp", "/fotos/Champs/singed.webp", "/fotos/Champs/jinx.webp", "/fotos/Champs/sett.webp", "/fotos/Champs/Garen.webp", "/fotos/Champs/vi.webp", "/fotos/Champs/Lucian.webp", "/fotos/Champs/Senna.webp", "/fotos/Champs/Syndra.webp", "/fotos/Champs/Xin.webp", "/fotos/Champs/varus.webp", "/fotos/Champs/Heimer.webp", "/fotos/Champs/Yuumi.webp",
-        "/fotos/Champs/Blit.webp", "/fotos/Champs/jhin.webp", "/fotos/Champs/xayah.webp", "/fotos/Champs/K6.webp", "/fotos/Champs/Rengar.webp", "/fotos/Champs/Elise.webp", "/fotos/Champs/Nida.webp", "/fotos/Champs/Ksante.webp", "/fotos/Champs/fiora.webp", "/fotos/Champs/Nasus.webp", "/fotos/Champs/lee.webp", "/fotos/Champs/yorick.webp"];
+        "/fotos/Champs/Blit.webp", "/fotos/Champs/jhin.webp", "/fotos/Champs/xayah.webp", "/fotos/Champs/K6.webp", "/fotos/Champs/Rengar.webp", "/fotos/Champs/Elise.webp", "/fotos/Champs/Nida.webp", "/fotos/Champs/Ksante.webp", "/fotos/Champs/fiora.webp", "/fotos/Champs/Nasus.webp", "/fotos/Champs/lee.webp", "/fotos/Champs/yorick.webp", "/fotos/Champs/annie.webp", "/fotos/Champs/nautilus", "/fotos/Champs/akshan.webp", "/fotos/Champs/reksai.webp",
+        "/fotos/Champs/kaisa.webp","/fotos/Champs/akali.webp","/fotos/Champs/katarina.webp", "/fotos/Champs/milio.webp","/fotos/Champs/3sh.webp","/fotos/Champs/ezreal.webp", "/fotos/Champs/ashe.webp","/fotos/Champs/urgot.webp", "/fotos/Champs/ekko.webp","/fotos/Champs/bardo.webp","/fotos/Champs/kayn.webp","/fotos/Champs/nocturne.webp","/fotos/Champs/pantheon.webp" ]
 
 
     const Randomizar = Math.floor((Math.random() * 40));
@@ -94,8 +95,17 @@ divBoton.addEventListener("click", () => {
      </div>
        
      
-     `
+     `;
+
 })
+
+divBoton.addEventListener("click", () => {
+    if (divBoton.addEventListener("click")){
+    divBoton.innerText = `Intentar de nuevo`
+
+    }
+}
+)
 
 
 
