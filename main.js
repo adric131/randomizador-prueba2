@@ -9,9 +9,9 @@ const textoRandomizar = document.getElementById("randomizar-texto")
 
 divBoton.addEventListener("click", (e) => {
 
-    const rutaDeImagenes = ["../Champs/Gragasicono.webp", "../Champs/samira.webp", "../Champs/kassadin.webp", "../Champs/Gnar.webp", "../Champs/lulu.webp", "../Champs/zoe.webp", "../Champs/Rakan.webp", "../Champs/doctormundo.webp", "../Champs/Morgana.webp", "../Champs/darius.webp", "../Champs/nami.webp", "../Champs/Morde.webp", "../Champs/ww.webp",
-        "../Champs/Cait.webp", "../Champs/lux.webp", "../Champs/Ornn.webp", "../Champs/singed.webp", "../Champs/jinx.webp", "../Champs/sett.webp", "../Champs/Garen.webp", "../Champs/vi.webp", "../Champs/Lucian.webp", "../Champs/Senna.webp", "../Champs/Syndra.webp", "../Champs/Xin.webp", "../Champs/varus.webp", "../Champs/Heimer.webp", "/fotos/Champs/Yuumi.webp",
-        "../Champs/Blit.webp", "../Champs/jhin.webp", "../Champs/xayah.webp", "../Champs/K6.webp", "../Champs/Rengar.webp", "../Champs/Elise.webp", "../Champs/Nida.webp", "../Champs/Ksante.webp", "../Champs/fiora.webp", "../Champs/Nasus.webp", "../Champs/lee.webp", "../Champs/yorick.webp"];
+    const rutaDeImagenes = ["/fotos/Champs/Gragasicono.webp", "/fotos/Champs/samira.webp", "/fotosChamps/kassadin.webp", "/fotos/Champs/Gnar.webp", "/fotos/Champs/lulu.webp", "/fotos/Champs/zoe.webp", "/fotos/Champs/Rakan.webp", "/fotos/Champs/doctormundo.webp", "/fotos/Champs/Morgana.webp", "/fotos/Champs/darius.webp", "/fotos/Champs/nami.webp", "/fotos/Champs/Morde.webp", "/fotos/Champs/ww.webp",
+        "/fotos/Champs/Cait.webp", "/fotos/Champs/lux.webp", "/fotos/Champs/Ornn.webp", "/fotos/Champs/singed.webp", "/fotos/Champs/jinx.webp", "/fotos/Champs/sett.webp", "/fotos/Champs/Garen.webp", "/fotos/Champs/vi.webp", "/fotos/Champs/Lucian.webp", "/fotos/Champs/Senna.webp", "/fotos/Champs/Syndra.webp", "/fotos/Champs/Xin.webp", "/fotos/Champs/varus.webp", "/fotos/Champs/Heimer.webp", "/fotos/Champs/Yuumi.webp",
+        "/fotos/Champs/Blit.webp", "/fotos/Champs/jhin.webp", "/fotos/Champs/xayah.webp", "/fotos/Champs/K6.webp", "/fotos/Champs/Rengar.webp", "/fotos/Champs/Elise.webp", "/fotos/Champs/Nida.webp", "/fotos/Champs/Ksante.webp", "/fotos/Champs/fiora.webp", "/fotos/Champs/Nasus.webp", "/fotos/Champs/lee.webp", "/fotos/Champs/yorick.webp"];
 
 
     const Randomizar = Math.floor((Math.random() * 40));
