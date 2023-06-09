@@ -26,7 +26,7 @@ divBoton.addEventListener("click", (e) => {
 }
 )
 divBoton.addEventListener("click", () => {
-    const rutaDeRoles = ["/fotos/Roles/Support_icon.webp", "/fotos/Roles/jungla.webp", "/fotos/Roles/bot_icon.webp", "/fotos/Roles/Midlane_icon.webp", "/fotos/Roles/Top_icon.webp"];
+    const rutaDeRoles = ["/fotos/Roles/Support_icon.webp", "/fotos/Roles/jungla.webp", "/fotos/Roles/Bot_icon.webp", "/fotos/Roles/Midlane_icon.webp", "/fotos/Roles/Top_icon.webp"];
 
     const randomizarRoles = Math.floor((Math.random()) * 5);
 
