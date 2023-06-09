@@ -169,8 +169,3 @@ margin-top: 0.23rem;
 border-radius: 0.5rem;   
 }
 
-.contenedorDeChampsEstilos{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
