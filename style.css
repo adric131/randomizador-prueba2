@@ -44,7 +44,18 @@ height: 4.5rem;
 
 }
 
-
+.boton2{
+   display: flex;
+   justify-content: space-around;
+      color: white;
+  
+ user-select: none;
+ 
+ margin-left: 25%;
+ margin-right: 25%;
+ height: 4.5rem;
+ 
+ }
 h2{
 margin-top: 0.65rem;
 font-size: 2rem;
