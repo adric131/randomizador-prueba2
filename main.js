@@ -24,7 +24,7 @@ divBoton.addEventListener("click", (e) => {
 
     divBoton.style.cursor = "pointer";
 
-    divBoton.innerText= `class = "boton" Intentarlo de nuevo`
+    divBoton.innerText= `Intentarlo de nuevo`
 
 }
 )
