@@ -48,7 +48,7 @@ height: 4.5rem;
    display: flex;
    justify-content: space-around;
       color: white;
-  
+   font-size: medium;
  user-select: none;
  
  margin-left: 25%;
